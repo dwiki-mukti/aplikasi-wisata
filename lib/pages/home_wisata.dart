@@ -20,7 +20,7 @@ class HomeWisata extends StatelessWidget {
           ),
           Container(
             margin: EdgeInsets.only(top: 15),
-            child: Text(
+            child: const Text(
               'Guo Lowo Sampung',
               textAlign: TextAlign.center,
               style: TextStyle(
@@ -70,7 +70,7 @@ class HomeWisata extends StatelessWidget {
           ),
           Container(
             padding: EdgeInsets.all(16.0),
-            child: Text(
+            child: const Text(
               'Goa Lowo Sampung merupakan salah satu dari beberapa goa tempat tinggal manusia purba yang ditemukan di Indonesia. Disebut sebagai Goa Lowo karena dulu banyak Lowo (Kelelawar) yang hidup dalam goa.',
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 16.0, fontFamily: 'Oxygen'),
