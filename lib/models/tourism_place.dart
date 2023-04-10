@@ -74,7 +74,7 @@ var tourismPlaceList = [
     openDays: 'Open Everyday',
     openTime: '06:00 - 17:00',
     ticketPrice: 'Rp 3000',
-    imageAsset: 'images/stone-garden.jpg',
+    imageAsset: 'images/stone-garden.webp',
     imageUrls: [
       'https://media-cdn.tripadvisor.com/media/photo-o/15/01/d7/4b/p-20180510-153310-01.jpg',
       'https://media-cdn.tripadvisor.com/media/photo-w/15/68/00/32/stone-garden-citatah.jpg',
@@ -119,7 +119,7 @@ var tourismPlaceList = [
     openDays: 'Open Everyday',
     openTime: '09:00 - 17:00',
     ticketPrice: 'Rp 20000',
-    imageAsset: 'images/floating-market.png',
+    imageAsset: 'images/floating-market.webp',
     imageUrls: [
       'https://media-cdn.tripadvisor.com/media/photo-o/17/f9/ff/f8/floating-market-bandung.jpg',
       'https://media-cdn.tripadvisor.com/media/photo-p/1a/86/d3/cd/20200103-125059-largejpg.jpg',
