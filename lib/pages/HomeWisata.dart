@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+var infoTextStyle = const TextStyle(fontFamily: "Oxygen");
+
 class HomeWisata extends StatelessWidget {
   const HomeWisata({super.key});
 
@@ -24,6 +26,7 @@ class HomeWisata extends StatelessWidget {
               style: TextStyle(
                 fontSize: 30.0,
                 fontWeight: FontWeight.bold,
+                fontFamily: "Staatliches",
               ),
             ),
           ),
@@ -36,21 +39,30 @@ class HomeWisata extends StatelessWidget {
                   children: <Widget>[
                     Icon(Icons.calendar_today),
                     SizedBox(height: 8.0),
-                    Text('Open Everyday'),
+                    Text(
+                      'Open Everyday',
+                      style: infoTextStyle,
+                    ),
                   ],
                 ),
                 Column(
                   children: <Widget>[
                     Icon(Icons.access_time),
                     SizedBox(height: 8.0),
-                    Text('07:00-17:00'),
+                    Text(
+                      '07:00-17:00',
+                      style: infoTextStyle,
+                    ),
                   ],
                 ),
                 Column(
                   children: <Widget>[
                     Icon(Icons.attach_money),
                     SizedBox(height: 8.0),
-                    Text('Free'),
+                    Text(
+                      'Free',
+                      style: infoTextStyle,
+                    ),
                   ],
                 ),
               ],
@@ -61,7 +73,7 @@ class HomeWisata extends StatelessWidget {
             child: Text(
               'Goa Lowo Sampung merupakan salah satu dari beberapa goa tempat tinggal manusia purba yang ditemukan di Indonesia. Disebut sebagai Goa Lowo karena dulu banyak Lowo (Kelelawar) yang hidup dalam goa.',
               textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 16.0),
+              style: TextStyle(fontSize: 16.0, fontFamily: 'Oxygen'),
             ),
           ),
           SizedBox(
@@ -74,7 +86,7 @@ class HomeWisata extends StatelessWidget {
                   child: ClipRRect(
                     borderRadius: const BorderRadius.all(Radius.circular(10)),
                     child: Image.network(
-                        "https://gubukinspirasi.com/wp-content/uploads/2022/04/Reog-Ponorogo.webp"),
+                        "https://media-cdn.tripadvisor.com/media/photo-s/0d/7c/59/70/farmhouse-lembang.jpg"),
                   ),
                 ),
                 Padding(
@@ -82,7 +94,7 @@ class HomeWisata extends StatelessWidget {
                   child: ClipRRect(
                     borderRadius: const BorderRadius.all(Radius.circular(10)),
                     child: Image.network(
-                        "https://awsimages.detik.net.id/community/media/visual/2022/04/05/alun-alun-ponorogo-3_169.jpeg?w=1200"),
+                        "https://media-cdn.tripadvisor.com/media/photo-w/13/f0/22/f6/photo3jpg.jpg"),
                   ),
                 ),
                 Padding(
@@ -90,7 +102,7 @@ class HomeWisata extends StatelessWidget {
                   child: ClipRRect(
                     borderRadius: const BorderRadius.all(Radius.circular(10)),
                     child: Image.network(
-                        "https://img.inews.co.id/media/822/files/inews_new/2023/04/04/masjid_kuno_ponorogi.jpg"),
+                        "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/a9/33/43/liburan-di-farmhouse.jpg"),
                   ),
                 )
               ],
